@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-     
+
         String amount=inputEditText.getText().toString();
         float tipPercent=slider.getValue();
 
